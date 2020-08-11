@@ -28,6 +28,6 @@ jobs:
           username: $GITHUB_ACTOR
           password: ${{ secrets.GITHUB_TOKEN }}
           registry: docker.pkg.github.com
-          repository: itsmysyntax/docker-express-typescript-boilerplate/det
+          repository: itsmysyntax/docker-node/det
           tag_with_sha: true
           tag_with_ref: true
